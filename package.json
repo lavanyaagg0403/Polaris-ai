@@ -1,0 +1,17 @@
+{
+  "name": "polaris-ai-root",
+  "version": "1.0.0",
+  "description": "Polaris AI - All-in-One Student Operating System",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && npm run install:backend && npm run install:frontend",
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev",
+    "dev": "npx concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
