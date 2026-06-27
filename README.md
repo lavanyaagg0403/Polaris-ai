@@ -2,24 +2,57 @@
 
 # Polaris AI
 
-Polaris AI is an all-in-one Student Operating System for planning academic work, career applications, coding practice, research notes, productivity, wellness, and guided student support through a local multi-agent command center.
+> AI-powered Student Operating System for productivity, career planning, coding practice, research, and academic organization.
 
-This project was built as part of a **5-Day AI Agent Vibe Coding Hackathon**, where the goal was to rapidly design and develop an AI-powered productivity platform through fast iteration and practical MVP development. The hackathon context shaped the pace and prototype-first workflow, while the application itself is structured as a serious full-stack software project with a React frontend, Express backend, and SQLite persistence.
+🚀 **Built during the 5-Day AI Agent Vibe Coding Hackathon** as a capstone project, Polaris AI demonstrates a full-stack student productivity platform with a React frontend, Express backend, SQLite database, and a local multi-agent architecture.
+
+---
+
+## ✨ Features
+
+- 🤖 AI-inspired Command Center with local multi-agent routing
+- 📚 Study Notes & Flashcards
+- 💼 Career Application Tracker
+- 💻 Coding Assistant
+- 🔬 Research Workspace
+- ✅ Task Management
+- 🍅 Pomodoro Focus Timer
+- 😊 Mood Tracking
+- 🧠 Student Memory & Personalized Dashboard
+
+---
+
+## 📸 Screenshots
+## 📸 Screenshots
+
+### Dashboard
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c35a08d5-033c-4892-918d-e9ccf5f92814" />
+
+### Command Center
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e2d27593-4a6c-4f53-b78d-aa2121cfa28f" />
+
+
+### Career Hub
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/77dd223a-a394-4db5-a19c-24d681bb6e41" />
+
+
+### Coding Hub
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ff56e396-0390-4034-9055-41da143084d9" />
+
+---
 
 ## Project Overview
 
-Polaris AI helps students organize the major parts of a semester from one dashboard. The app includes:
+Polaris AI helps students organize academics, career preparation, coding practice, research, productivity, and wellness from a single dashboard.
 
-- A dashboard with task, application, wellness, study progress, and recommendation summaries.
-- A Command Center where Ask Polaris routes prompts through local student agents.
-- Study tools for notes and flashcards.
-- Career tools for application tracking, resume feedback, and interview question generation.
-- Coding tools for code editing, JavaScript execution, debugging guidance, explanation, and DSA practice.
-- Research tools for paper summaries, document entries, and citation formatting.
-- Productivity tools for task management, Pomodoro focus sessions, and mood check-ins.
-- Settings for student memory and database reset.
+The application combines multiple student-focused tools into one platform with a local AI-inspired command center.
 
-The current implementation uses a local deterministic agent service. It does not require external LLM providers, API keys, or `.env` configuration to run.
+The current implementation uses a local deterministic agent service, meaning the project runs immediately after installation with **no API keys or external AI providers required.**
+
 
 ## Tech Stack
 
